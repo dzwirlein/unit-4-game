@@ -1,0 +1,86 @@
+
+
+
+h1 { 
+    width: 400px;
+    height: 100px;
+    font-size: 2em;
+    background: orangered;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 20px;
+
+}
+
+body {
+    background-image: url(../images/background.jpg);  
+
+}
+
+
+#gameRules {
+    background-color: yellow;
+    height: 400px;
+    line-height: 3.5;
+    width: 600px;
+    padding-left: 20px;
+
+}
+
+
+#tracker {
+    width: 400px;
+
+}
+
+
+
+#targetNumber {
+    background-color: green;
+    height: 100px;
+    width: 200px;
+    float:left;
+    margin: 10px;
+
+}
+
+#scoreContainer {
+    background-color: aqua;
+    float: right;
+    width: 100px;
+    height: 100px;
+    line-height: 2.5;
+    margin: 10px;
+    
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.crystals {
+    clear: both;
+    border: 20px;   
+
+}
+
+
+#score {
+
+    background-color: greenyellow;
+    height: 20px;
+    width: 200px;
+    margin: 20px;
+
+}
+
+#scoreTracker {
+    background-color: greenyellow;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+
+}
